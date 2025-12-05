@@ -44,9 +44,11 @@ public class DemoDataType {
 
        // + - * /
 
+       System.out.println(p4);
        int p5 = 99;
        p5 = p4;
        System.out.println(p4);
+       System.out.println(p5);
 
        int a4 = 5;
        int a5 = 20;
@@ -56,6 +58,7 @@ public class DemoDataType {
        // ! add to itself
        p5 = p5 + 100000;
        System.out.println(p5);
+
 
        // ! 1(Store Integer) byte, short, int, long 整數
        // ! 2(Store number with decimal place) float, double 有小數
